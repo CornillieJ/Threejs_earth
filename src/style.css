@@ -1,0 +1,21 @@
+canvas{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.navigation{
+  color: white;
+  list-style-type: none;
+  position: absolute;
+  z-index: 5;
+}
+.navigation li{
+  font-size: 2rem;
+}
+.navigation li:hover{
+  color: slateblue;
+  cursor: crosshair;
+}
+.navigation li:active{
+  color: blueviolet;
+}
